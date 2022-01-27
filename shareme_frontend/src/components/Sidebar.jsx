@@ -59,7 +59,6 @@ const Sidebar = ({ user, closeToggle }) => {
           ))}
         </div>
       </div>
-      {console.log(user)}
       {user && (
         <Link
           to={`user-profile/${user._id}`}
